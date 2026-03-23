@@ -21,6 +21,3 @@ The same process is used for decryption, making it a reversible and lossless enc
 
  - XOR is reversible:
    - Encrypted ⊕ Key = Original
-# Installation
-Install dependencies:
- pip install pillow numpy
