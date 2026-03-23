@@ -12,7 +12,7 @@ A simple yet effective Image Encryption &amp; Decryption tool built using Python
 - Pixel values are shifted using a key
 - XOR operation is applied
 - Adjacent pixels are swapped
-🔓 Decryption
+ 🔓 Decryption
 - Pixel swapping is reversed
 - XOR operation is applied again
 - Pixel values are restored
