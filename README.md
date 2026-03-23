@@ -1,19 +1,26 @@
-# Prodigy_cs_02
-A simple yet effective Image Encryption &amp; Decryption tool built using Python. This project demonstrates how basic pixel-level operations like XOR, pixel shifting, and swapping can be used to secure images.
+# Pixel Manipulation for Image Encryption
+This project is a Python-based Image Encryption Tool that uses pixel manipulation techniques to secure images. It applies a simple XOR (Exclusive OR) operation on each pixel using a secret key to transform the image into an encrypted format.
+The same process is used for decryption, making it a reversible and lossless encryption method.
 # Features
-- Image Encryption using pixel manipulation
-- Image Decryption with the same key
-- Key-based security (0–255)
-- Reversible operations (no data loss)
-- Image comparison (accuracy check)
-- Supports formats like JPG and PNG
+- Encrypt images using XOR operation
+- Decrypt images using the same key
+- Key-based encryption (0–255)
+- Fast and efficient pixel processing
+- Supports multiple image formats (JPG, PNG)
+- Simple CLI-based interface
 # How It Works
 🔐 Encryption
-- Pixel values are shifted using a key
-- XOR operation is applied
-- Adjacent pixels are swapped
+- Convert image into pixel array
+- Apply XOR operation with key
+- Save encrypted image
   
 🔓 Decryption
-- Pixel swapping is reversed
-- XOR operation is applied again
-- Pixel values are restored
+- Load encrypted image
+- Apply XOR with same key
+- Restore original image
+
+ - XOR is reversible:
+   - Encrypted ⊕ Key = Original
+# Installation
+Install dependencies:
+ pip install pillow numpy
