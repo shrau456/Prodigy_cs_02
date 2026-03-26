@@ -14,7 +14,7 @@ The same process is used for decryption, making it a reversible and lossless enc
 - Apply XOR operation with key
 - Save encrypted image
   
-  Decryption
+Decryption
 - Load encrypted image
 - Apply XOR with same key
 - Restore original image
