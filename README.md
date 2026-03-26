@@ -9,15 +9,33 @@ The same process is used for decryption, making it a reversible and lossless enc
 - Supports multiple image formats (JPG, PNG)
 - Simple CLI-based interface
 # How It Works
-🔐 Encryption
+  Encryption
 - Convert image into pixel array
 - Apply XOR operation with key
 - Save encrypted image
   
-🔓 Decryption
+  Decryption
 - Load encrypted image
 - Apply XOR with same key
 - Restore original image
 
  - XOR is reversible:
    - Encrypted ⊕ Key = Original
+# Installation
+- Install dependencies:
+  ```
+   pip install -r requirements.txt
+   ```
+# Usage
+1. Run the script:
+   ```
+   python prodigy_cs_02.py
+   ```
+2. Choose an option:
+   - 1: Encrypt Image
+   - 2: Decrypt Image
+3. Enter the path of the input image
+   - The encrypted/decrypted image will be automatically saved with "_encrypted" or "_decrypted" suffix
+# Author
+- Created by : Suryawanshi Shravani Dnyanoba
+- Task 2 : Pixel Manipulation for Image Encryption - Completed
