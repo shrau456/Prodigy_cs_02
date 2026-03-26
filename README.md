@@ -1,4 +1,5 @@
-# Pixel Manipulation for Image Encryption
+# Prodigy_cs_02
+# Task 2 : Pixel Manipulation for Image Encryption
 This project is a Python-based Image Encryption Tool that uses pixel manipulation techniques to secure images. It applies a simple XOR (Exclusive OR) operation on each pixel using a secret key to transform the image into an encrypted format.
 The same process is used for decryption, making it a reversible and lossless encryption method.
 # Features
